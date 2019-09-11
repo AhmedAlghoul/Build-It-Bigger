@@ -13,7 +13,7 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import java.io.IOException;
 
 
-class EndpointAsyncTask extends AsyncTask< com.udacity.gradle.builditbigger.free.MainActivityFragment, Void, String> {
+public class EndpointAsyncTask extends AsyncTask< com.udacity.gradle.builditbigger.free.MainActivityFragment, Void, String> {
     private static MyApi myApiService = null;
     private  com.udacity.gradle.builditbigger.free.MainActivityFragment mainActivityFragment;
     private Context context;

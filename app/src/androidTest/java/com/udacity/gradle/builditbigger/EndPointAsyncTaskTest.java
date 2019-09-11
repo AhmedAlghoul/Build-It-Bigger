@@ -3,6 +3,7 @@ package com.udacity.gradle.builditbigger;
 import android.support.test.runner.AndroidJUnit4;
 
 
+import com.udacity.gradle.builditbigger.free.EndpointAsyncTask;
 import com.udacity.gradle.builditbigger.free.MainActivityFragment;
 
 import org.junit.Test;
